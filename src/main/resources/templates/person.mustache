@@ -1,3 +1,17 @@
+<title>Spring Webflux Sample</title>
+
+<h2>Spring Webflux Sample</h2>
+
+<table>
+    {{#persons}}
+        <tr>
+            <td><a href="/persons/{{id}}">{{id}}</a></td>
+            <td>{{firstName}}</td>
+            <td>{{lastName}}</td>
+        </tr>
+    {{/persons}}
+</table>
+
 <table>
     {{#person}}
         <tr>
